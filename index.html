@@ -17,8 +17,15 @@
   font-style: normal;
 }
 
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 header {
-  padding: 100px 0 50px;
+  padding: 50px 0 50px;
   display: flex;
   justify-content: center;
 }
@@ -32,13 +39,39 @@ header img {
   width: 600px;
   max-width: 80%;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 40px;
 }
 
-p, a {
-  font-size: 1.5rem;
-  line-height: 1.5;
+section {
+  background-color: #f1f5f9;
+  padding: 20px 40px 5px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.2rem;
+}
+
+p, a, h3 {
+  font-size: 1.4rem;
+  line-height: 1.4;
   color: #334155;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .cta-button {
@@ -59,12 +92,34 @@ p, a {
 <div class="container">
   <p class="montserrat-regular">A small community for software engineers where we build sustainable career routines together.</p>
   <p class="montserrat-regular">Think gym membership, but for your career.</p>
+
   <br />
-  <p class="montserrat-regular">More info and full website coming soon!</p>
 
-  <!-- <br /><br />
+  <section>
+    <h3 class="montserrat-bold">Tuesdays</h3>
+    <p class="montserrat-regular">Workshops, guest speakers, Q&A</p>
+  </section>
 
-  <a class="montserrat-regular cta-button" href="https://career-reps.circle.so/checkout/community-access">Join Now</a> -->
+  <section>
+    <h3 class="montserrat-bold">Thursdays</h3>
+    <p class="montserrat-regular">Small group working sessions on career routines, interviewing, resumes, LinkedIn profiles, etc.</p>
+  </section>
+
+  <section>
+    <h3 class="montserrat-bold">Async</h3>
+    <p class="montserrat-regular">Weekly reps (activities) to build routines and accountability</p>
+    <p class="montserrat-regular">Career growth frameworks and templates</p>
+    <p class="montserrat-regular">Private community space for discussions</p>
+  </section>
+
+  <br />
+
+  <p class="montserrat-regular">Just like you know you should walk 10k steps per day, you know you should build a career routine.</p>
+  <p class="montserrat-regular">Career Reps is where you actually do it, with a community to support you.</p>
+  
+  <br />
+
+  <a class="montserrat-regular cta-button" href="https://community.career-reps.com/checkout/membership">Get Started</a>
 </div>
 
 </body>
