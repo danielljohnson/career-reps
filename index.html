@@ -17,6 +17,13 @@
   font-style: normal;
 }
 
+.montserrat-semibold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .montserrat-bold {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -56,7 +63,7 @@ header img {
   text-align: center;
   margin: 40px auto 0;
   padding: 0 40px 40px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
 }
 
@@ -111,6 +118,39 @@ ul {
   border-radius: 5px;
   text-decoration: none;
   display: inline-block;
+}
+
+.schedule {
+  margin: 40px 0 0;
+  max-width: 800px;
+}
+
+.schedule h2 {
+  font-size: 1.4rem;
+  margin: 0 0 30px;
+}
+
+.schedule-week {
+  margin-bottom: 30px;
+}
+
+.schedule-week:last-child {
+  margin-bottom: 0;
+}
+
+.schedule-week h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.schedule-week ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.schedule-week li {
+  padding: 8px 0;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 768px) {
@@ -170,6 +210,42 @@ ul {
     <p class="montserrat-regular">The community is made up of 28 software engineers and managers from companies ranging from early startups to big tech.</p>
     <p class="montserrat-regular">Live sessions are on Tuesdays and Thursdays at 6PM CST. All sessions recorded.</p>
     <p class="montserrat-regular">Membership is $49/month.</p>
+  </div>
+
+  <div class="schedule">
+    <h2 class="montserrat-bold">March Schedule</h2>
+    
+    <div class="schedule-week">
+      <h3 class="montserrat-semibold">Week 1: Career Foundations</h3>
+      <ul class="montserrat-regular">
+        <li>Tuesday: Asking Hard Career Questions</li>
+        <li>Thursday: Resume/LinkedIn Audit</li>
+      </ul>
+    </div>
+  
+    <div class="schedule-week">
+      <h3 class="montserrat-semibold">Week 2: Career Storytelling</h3>
+      <ul class="montserrat-regular">
+        <li>Tuesday: Guest Speaker Career Story</li>
+        <li>Thursday: Storytelling for Interviews</li>
+      </ul>
+    </div>
+  
+    <div class="schedule-week">
+      <h3 class="montserrat-semibold">Week 3: Building Your Path</h3>
+      <ul class="montserrat-regular">
+        <li>Tuesday: Career Optionality</li>
+        <li>Thursday: Routine Building</li>
+      </ul>
+    </div>
+  
+    <div class="schedule-week">
+      <h3 class="montserrat-semibold">Week 4: Skills & Identity</h3>
+      <ul class="montserrat-regular">
+        <li>Tuesday: Skills Audit</li>
+        <li>Thursday: Personal Branding</li>
+      </ul>
+    </div>
   </div>
 </div>
 
